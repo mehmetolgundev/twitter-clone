@@ -9,7 +9,7 @@ export default function Login(){
                 <div className="col-md-6">
                     <h1>Login</h1>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 justify-content-center align-items-center">
              <h1 className="text-white fw-bold title-font" >Happening now</h1>
                 <h2 className="text-white display-6">Join today.</h2>
              <button className="btn btn-primary">Create account</button>
