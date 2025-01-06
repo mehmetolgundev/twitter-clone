@@ -1,0 +1,43 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.log
+
+# Spring
+target/
+*.iml
+*.classpath
+*.project
+*.settings/
+
+# Maven
+.mvn/
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Spring Boot specific files
+spring-boot-devtools.properties
