@@ -23,7 +23,6 @@ export default function Signup({closeAction}) {
               <input type="text" placeholder="Username" className="bg-twitter-border text-white rounded p-2 w-1/2 mb-4"/>
               <input type="password" placeholder="Password" className="bg-twitter-border text-white rounded p-2 w-1/2 mb-4"/>
               <button className="bg-twitter-white text-black font-bold hover:bg-twitter-white-hover rounded-full p-2 w-1/2 mb-4">Create account</button>
-             
             </div>
           </div>
         </div>
