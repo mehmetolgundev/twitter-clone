@@ -1,8 +1,6 @@
 import React from "react";
 import { BsTwitterX } from "react-icons/bs";
-import Signup from "./Signup";
-export default function Login({closeAction,forwardAction}) {
-
+export default function Signup({closeAction}) {
   return (
     <>
       <div className="fixed inset-0 bg-twitter-border bg-opacity-50 flex justify-center items-center">
@@ -16,14 +14,16 @@ export default function Login({closeAction,forwardAction}) {
             </div>
             <div className="flex flex-row w-full h-fit justify-center items-start">
             <div className="w-1/2 mb-10">
-              <h1 className="text-white sm:text-3xl xl:text-4xl font-bold">Sign in to X</h1>
+              <h1 className="text-white sm:text-3xl xl:text-4xl font-bold">Create your account</h1>
             </div>
             </div>
             <div className="flex flex-col w-full h-fit justify-center items-center">
-              <input type="text" placeholder="Phone, email, or username" className="bg-twitter-border text-white rounded p-2 w-1/2 mb-4"/>
+              <input type="text" placeholder="Name" className="bg-twitter-border text-white rounded p-2 w-1/2 mb-4"/>
+              <input type="email" placeholder="Email" className="bg-twitter-border text-white rounded p-2 w-1/2 mb-4"/>
+              <input type="text" placeholder="Username" className="bg-twitter-border text-white rounded p-2 w-1/2 mb-4"/>
               <input type="password" placeholder="Password" className="bg-twitter-border text-white rounded p-2 w-1/2 mb-4"/>
-              <button className="bg-twitter-white text-black font-bold hover:bg-twitter-white-hover rounded-full p-2 w-1/2 mb-4">Log in</button>
-              <p className="text-white text-sm">Don't have an account? <a onClick={forwardAction} className="text-twitter-blue">Sign up</a></p>
+              <button className="bg-twitter-white text-black font-bold hover:bg-twitter-white-hover rounded-full p-2 w-1/2 mb-4">Create account</button>
+             
             </div>
           </div>
         </div>

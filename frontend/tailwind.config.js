@@ -10,6 +10,8 @@ module.exports = {
         'twitter-blue-hover': '#1B8CD8',
         'twitter-signin-hover': '#051019',
         'twitter-border': '#536471',
+        'twitter-white': '#EFF3F4',
+        'twitter-white-hover':'#D7DBDC'
       },
     },
   },
